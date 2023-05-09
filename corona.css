@@ -1,7 +1,12 @@
 body{
+    max-width: 100%;
+    /* overflow-x: hidden; */
     background-image: url("./images/coro10.jpg");
-   
+    background-size: cover;
+   margin: 0;
 }
-/* #result2{
-    : url("./images/India_Vaccination_Map.jpg");
-} */
+@media (min-width: 768){
+    #result{
+        font-size:xx-small;
+    }
+}
